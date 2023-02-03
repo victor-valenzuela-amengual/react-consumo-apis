@@ -6,9 +6,7 @@ import ApiMetereologia from "./componentes/ApiMeteorologia";
 import ApiFeriados from "./componentes/ApiFeriados";
 
 function App() {
-  const urlUes = "http://universities.hipolabs.com/search?country=Chile";
-  //const urlAfp= "https://www.quetalmiafp.cl/api/Cuota/ObtenerCuotas?listaAFPs=CAPITAL,Cuprum,Habitat" +
-  //"Modelo,PlanVital,ProVida,Uno&listaFondos=D,E&fechaInicial=23/01/2023&fechaFinal=27/01/2023";
+  const urlUes = "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=7146c15f0d7f9bb1878d833a0e907846&hash=0290bf25a56f15c32a1f6023333dee8e";  
   const urlMeteor = "https://api.libreapi.cl/weather/stations";
   const urlRandom = "https://randomuser.me/api/?results=10";
   const primario = "dark";
@@ -62,7 +60,7 @@ function App() {
         </h1>
       </header>
 
-      <div className="container d-flex gap-1">
+      <div className="container-fluid d-flex gap-1">
         <aside className="col-xs-4">
           <p className="bg-primary text-light m-0 mb-1 mt-2 text-center h5">
             Selecciona API
