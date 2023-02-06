@@ -73,7 +73,7 @@ function App() {
               onClick={handleClickUes}
               variant={colorUes}
             >
-              Universidades
+              Marvel
             </ListGroup.Item>
             <ListGroup.Item
               id="meteor"
